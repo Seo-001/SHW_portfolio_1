@@ -16,7 +16,7 @@
 
 #### 디렉토리:Click [here](https://github.com/Seo-001/FED-REAL-PJ-SHW.git)
 
-#### README::Click [here](https://seo-001.github.io/FED-REAL-PJ-SHW/)
+#### README:Click [here](https://seo-001.github.io/FED-REAL-PJ-SHW/)
 
 <br/>
 
