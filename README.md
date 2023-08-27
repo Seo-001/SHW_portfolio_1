@@ -2,16 +2,21 @@
 
 ## 간단한 자기 소개 및 프로젝트 설명
 
-https://seo-001.github.io/SHW_portfolio_1/portfolio.html
+#### 완성품:Click [here](https://seo-001.github.io/SHW_portfolio_1/portfolio.html)
+
+#### 디렉토리:Click [here](https://github.com/Seo-001/SHW_portfolio_1.git)
+
+#### README::Click [here](https://seo-001.github.io/SHW_portfolio_1/)
+
 <br>
 
 ---
 
 # FED-REAL-PJ-SHW
 
-## 최종 프로젝트 README
+#### 디렉토리:Click [here](https://github.com/Seo-001/FED-REAL-PJ-SHW.git)
 
-https://seo-001.github.io/FED-REAL-PJ-SHW/
+#### README::Click [here](https://seo-001.github.io/FED-REAL-PJ-SHW/)
 
 <br/>
 
