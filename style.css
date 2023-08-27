@@ -438,19 +438,24 @@ section {
 }
 
 .decision__avatar {
+  margin: 0 auto;
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
 
 .decision__speech-bubble {
+  text-align: center;
+  line-height: 2;
   padding: 18px;
   background-color: var(--color-white);
   border-radius: var(--size-border-radius);
 }
 
 .decision__speech-bubble p {
+  margin: 0 auto;
   color: var(--color-dark-grey);
+  max-width: 1000px;
 }
 
 /* Contact */
@@ -570,10 +575,11 @@ section {
   }
 
   .decision {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    width: 120px;
-    height: 120px;
+    /* width: 120px; */
+    /* height: 120px; */
     margin-bottom: 8px;
   }
 
