@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHW Portfolio</title>
+    <meta name="description" content="Portfolio for software engineer shw" />
+    <meta name="author" content="shw" />
+    <link rel="icon" type="image/png" href="portfolio-imgs/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/40e16d5a83.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fa-solid fa-laptop"></i>
+        <a href="#">SHW</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#Home">HOME</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">My work</li>
+        <li class="navbar__menu__item" data-link="#decision">Decision</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+  
+    <!-- Toggle button -->
+    <button class="navbar__toggle-btn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    </nav>
+    
+    <!--Home-->
+    <section id="Home">
+      <div class="Home__container">
+        <img
+          src="portfolio-imgs/mypic.jpg"
+          alt="Seo haewon's photo"
+          class="home__avatar"
+        />
+      <h1 class="home__title">Hello, <br />I'm Seo Hae Won</h1>
+      <h2 class="home__description">도전하는 프론트엔드 개발자</h2>
+      <button class="home__contact" >CONTACT ME</button>
+    </div>
+    </section>
+
+    <!--About 공통된부분이라서 home 처럼 class 안함-->
+    <section id="about" class="section section__container">
+      <h1>About Me</h1>
+      <p>바이오 경력에서 쌓은 것을 바탕으로 새로운 도전을 하고자 합니다.</p>
+      <!-- 3개를 한꺼번에 묶기 위해 아래about__majors과 같이 만듦 -->
+      <div class="about__careers">
+        <div class="career">
+          <div class="career__icon">
+            <img
+            src="portfolio-imgs/school/한국폴리텍바이오대학.jpg"
+            alt="한국폴리텍바이오대학"
+            class="job__icon"
+            />
+          </div>
+          <h2 class="career__title">한국폴리텍바이오대학 <br> 배양공정학과</h2>
+          <p class="career__description">2009.03 ~ 2011.02</p>
+        </div>
+        <div class="career">
+          <div class="career__icon">
+            <img
+            src="portfolio-imgs/school/방통대.jpg"
+            alt="한국방송통신대학교"
+            class="job__icon"
+            />
+          </div>
+          <h2 class="career__title">한국방송통신대학교 <br> 영어영문학과</h2>
+          <p class="career__description">2016.09 ~ 2020.08</p>
+        </div>
+        <div class="career">
+          <div class="career__icon">
+            <img
+              src="portfolio-imgs/jobs/코아스템.jpg"
+              alt="코아스템"
+              class="job__icon"
+            />
+          </div>
+          <h2 class="career__title">코아스템</h2>
+          <p class="career__description">2016.01 ~ 2018.02<br>생산팀</br>줄기세포배양</p>
+        </div>
+        <div class="career">
+          <div class="career__icon">
+            <img
+              src="portfolio-imgs/jobs/동물세포실증지원센터.jpg"
+              alt="동물세포실증지원센터"
+              class="job__icon"
+            />
+          </div>
+          <h2 class="career__title">동물세포실증지원센터</h2>
+          <p class="career__description">2019.05 ~ 2021.07<br>제조팀</br>SOP 문서 작성, <br>백신제조</p>
+        </div>
+      </div>
+      <div class="about__school">
+        <div class="school">
+          <img
+            src="portfolio-imgs/school/green.svg"
+            alt="학원로고"
+            class="school__logo"
+          />
+          <div class="school__description">
+            <p class="school__name">프로젝트기반 프론트엔드(React,Vue)과정_수료함</p>
+            <p class="school__period">2022.12 ~ 2023.07</p>
+          </div>
+        </div>
+       <div class="school">
+          <img
+            src="portfolio-imgs/school/kosta.png"
+            alt="학원로고"
+            class="school__logo kosta"
+          /> 
+          <div class="school__description">
+            <p class="school__name">Node.Js 기반 DevOps 개발자 양성 훈련과정_진행중</p>
+            <p class="school__period">2023.07 ~ 2023.12</p>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Skill-->
+    <section id="skills" class="section">
+    <div class="section__container">
+      <h1>Skills</h1>
+    
+      <p>
+        강남그린컴퓨터 아카데미를 다니면서 프론트엔드 skills 를 배웠고<br>
+        KOSTA 을 다니면서 현재 C,C++,C#들을 배웠습니다.
+        <br><br>
+      </p>
+      <div class="skillset">
+        <div class="skillset__left">
+          <h3 class="skillset__title">프론트엔드 Skills</h3>
+          <div class="skill">
+            <div class="skill__description">
+              <span>HTML</span>
+              <span>웹 표준을 준수한 단단한 구조의 mark up 구현 가능</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>CSS</span>
+              <span>CSS 요소를 이해하고 동적인 애니메이션 적용 가능</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width:100%"></div>
+            </div>
+          </div>
+        
+          <div class="skill">
+            <div class="skill__description">
+              <span>JAVASCRIPT, jQuery</span>
+              <span>기본 구문과 구조, 함수, DOM, 애니메이션 등 작업 가능</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Vue</span>
+              <span>인스턴스, 컴포넌트, 라우터를 이용한 기능 구현 가능</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>React</span>
+              <span>컴포넌트, hook, 라우터 이용한 기능 구현 가능 </span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 100%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillset__right">
+          <div class="Certificate">
+            <h3 class="skillset__title">Skills</h3>
+            <ul class="Certificate__list">
+              <li><span>C, C++, C#</span></li>
+              <li><span> : 기본 구문과 구조들을 이용한 프로젝트 가능 </span></li>
+              
+            </ul>
+          </div>
+          <div class="etc">
+            <h3 class="skillset__title">ETC</h3>
+            <ul class="etc__list">
+              <li><span>Figma</span></li>
+              <li><span>: 디자인 및 시안 제작, 프로토타입 구현 가능</span></li>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!--Work-->
+    <section id="work" class="section">
+      <div class="section__container">
+      <h1>My Work</h1>
+      <h3>HTML, CSS, JAVASCRIPT, Vue, React 들을 활용한 프로젝트</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">
+          All<span class="category__count">4</span>
+        </button>
+        <button class="category__btn" data-filter="coding">
+          READ ME <span class="category__count">1</span>
+        </button>
+        <button class="category__btn" data-filter="Javascript">
+          PROJECT<span class="category__count">3</span>
+        </button>
+      </div>
+      <div class="work__projects">
+        <a
+          href="portfolio-imgs/1. 수료증_프로그래밍 첫걸음 시작하기.jpg"
+          class="project"
+          data-type="coding"
+          target="blank"
+        >
+       <img
+          class="Certificate"
+          src="portfolio-imgs/1. 수료증_프로그래밍 첫걸음 시작하기.jpg"
+          alt="수료증_프로그래밍 첫걸음 시작하기"
+        />
+        <div class="project__description">
+          <h3>project</h3>
+          <span>clone coding with HTML and CSS, Javascript</span>
+        </div>
+      </a>
+        <a
+          href="portfolio-imgs/3. 수료증_포트폴리오 웹사이트 클론코딩.jpg"
+          class="project"
+          data-type="Javascript"
+          target="blank"
+        >
+         <img
+          class="Certificate"
+          src="portfolio-imgs/3. 수료증_포트폴리오 웹사이트 클론코딩.jpg"
+          alt="수료중_클론코딩"
+        />
+        <div class="project__description">
+          <h3>project</h3>
+          <span>clone coding with HTML and CSS, Javascript</span>
+        </div>
+      </a>
+        <a
+          href="portfolio-imgs/2. 수료증_자바스크립트 마스터리(ES6+ 최신문법).jpg"
+          class="project"
+          data-type="Javascript"
+          target="blank"
+        >
+     
+        <img
+          class="Certificate"
+          src="portfolio-imgs/2. 수료증_자바스크립트 마스터리(ES6+ 최신문법).jpg"
+          alt="수료증_자바스크립트 최신문법"
+        />
+        <div class="project__description">
+          <h3>project</h3>
+          <span>clone coding with HTML and CSS, Javascript</span>
+        </div>
+      </a>
+        <a
+          href="portfolio-imgs/4. 수료증_프론트엔드 필수 브라우저 101.jpg"
+          class="project"
+          data-type="Javascript"
+          target="blank"
+        >
+          <img
+            class="Certificate"
+            src="portfolio-imgs/4. 수료증_프론트엔드 필수 브라우저 101.jpg"
+            alt="수료증_프론트엔드 필수 브라우저"
+          />
+          <div class="project__description">
+            <h3>project</h3>
+            <span>clone coding with HTML and CSS, Javascript</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    </section>
+
+    <!--Decision-->
+    <section id="decision" class="section">
+      <div class="section__container">
+      <h1>각오 한마디</h1>
+      <h3>영원한 오늘이 없듯이, 누구에게나 새로운 시작이 있다.</h3>
+      <div class="decision">
+        <div class="dicision">
+          <img
+            src="portfolio-imgs/도전.jpg"
+            alt="도전"
+            class="decision__avatar"
+          />
+          <div class="decision__speech-bubble">
+            <p> 20대에는 바이오 분야에서 약을 제조하는 업무를 하였고<br> 
+               <b>30대에는 새로운 분야에 도전하고 싶어서 HTML, CSS, Javascript 를 공부하게 되었습니다.
+                 </b><br> 
+                 독학으로 배웠기에 아직은 부족할 수 있으나, <br>
+              빨리 회사에 적응하여 회사에 이바지하도록 하겠습니다.<br> 
+              <b>  자신있습니다. </b> 
+                    </p>
+           
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    </section>
+    
+    <!--Contact-->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">id201902@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/Seo-001/Repository01.git" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+       
+      </div>
+      <p class="contact__right">Seohw-- All rights reserved</p>
+    </section>
+
+    <!--Arrow up-->
+    <button class="arrow-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
