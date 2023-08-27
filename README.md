@@ -7,7 +7,9 @@ https://seo-001.github.io/SHW_portfolio_1/portfolio.html
 
 # FED-REAL-PJ-SHW
 
-## 최종본
+## 최종 프로젝트 README
+
+https://seo-001.github.io/FED-REAL-PJ-SHW/
 
 <br/>
 
