@@ -6,7 +6,7 @@
 
 #### 디렉토리:Click [here](https://github.com/Seo-001/SHW_portfolio_1.git)
 
-#### README::Click [here](https://seo-001.github.io/SHW_portfolio_1/)
+#### README:Click [here](https://seo-001.github.io/SHW_portfolio_1/)
 
 <br>
 
