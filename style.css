@@ -200,7 +200,7 @@ section {
 }
 
 .career {
-  flex-basis: 25%;
+  flex-basis: 50%;
 }
 
 .career__icon {
@@ -453,6 +453,7 @@ section {
 }
 
 .decision__speech-bubble p {
+  text-align: left;
   margin: 0 auto;
   color: var(--color-dark-grey);
   max-width: 1000px;
